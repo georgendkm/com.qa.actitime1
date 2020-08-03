@@ -27,6 +27,7 @@ public class LoginPage extends DriverScript
 	{
 		PageFactory.initElements(driver, this);
 	} 
+	// here in this page you can do three actions and make it as methods and the web elements kept it as an aruguments for each actions
 	
 	public void validateLoginFunction(String username, String password)
 	{

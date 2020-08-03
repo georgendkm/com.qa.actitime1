@@ -33,7 +33,7 @@ public class DriverScript {
 			System.out.println("unable to load the properties file"+ e.getMessage());
 		}
 	}
-	@Test
+	
 	public static void initBrowser()
 	{
 		String browser = prop.getProperty("browser");
